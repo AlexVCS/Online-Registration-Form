@@ -21,7 +21,58 @@
 
 <form>
 
-<!-- ADD THIS IN LATER Contact Information -->
+
+
+<fieldset>
+
+  <legend>Contact Information</legend>
+
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="full_name">
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email_address">
+
+  <label for="phone">Phone Number</label>
+  <input type="telephone" id="phone" name="phone_num">
+
+  <label for="address">Street Address</label>
+  <input type="text" id="address" name="user_address">
+
+  <label for="city">City</label>
+  <input type="text" id="city" name="user_city">
+
+  <label for="state">State</label>
+  <select id="state" name="user_state">
+    <option value="alaska">AK</option>
+    <option value="california">CA</option>
+    <option value="florida">FL</option>
+    <option value="georgia">GA</option>
+    <option value="new_york">NY</option>
+    <option value="north_carolina">NC</option>
+    <option value="texas">TX</option>
+
+
+  <label for="zip">Zip Code</label>
+  <input type="text" id="zip" name="user_zip">
+
+
+  <input type="checkbox" id="news" value="html_news" name="newsletter"><label for="coding">HTML News</label><br>
+  <input type="checkbox" id="css_news" value="css_news" name="newsletter"><label for="coding">CSS News</label><br>
+  <input type="checkbox" id="javascript_news" value="javascript_news" name="newsletter"><label for="coding">Javascript News</label><br>
+
+
+  <input type="radio" id="html" value="html" name="html"><label for="html">HTML</label><br>
+  <input type="radio" id="plain_text" value="plain_text" name="plain_text"><label for="plain_text">Plain Text</label>
+
+  <label for="topics">Other topics you'd like to hear about</label>
+  <textarea id="topics" name="topic_ideas"></textarea>
+
+</fieldset>
+
+<button type="submit">Sign Up</button>
+
+<p>Copyright The Code Review</p>
 
 
 </form>
