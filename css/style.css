@@ -25,6 +25,11 @@ width: 90%;
   border-top: 4px solid black;
 }
 
+.second_line {
+  border-top: 2px solid black;
+  width: 98%;
+}
+
 form {
   padding: 10px 20px;
   max-width: 300px;
@@ -38,6 +43,7 @@ input[type="text"],
 input[type="email"],
 input[type="telephone"] {
   padding: 15px;
+  margin: 0;
   margin-bottom: 30px;
   border: none;
   background: #EFF0F2;
@@ -48,8 +54,14 @@ input[placeholder] {
   text-align: right;
 }
 
-input:focus textarea:focus {
+
+
+textarea:focus {
   background-color: #D5D9DC;
+}
+
+.news {
+  text-align: left;
 }
 
 button {
