@@ -41,6 +41,7 @@ input[type="telephone"] {
   margin-bottom: 30px;
   border: none;
   background: #EFF0F2;
+  width: 100%;
 }
 
 input[placeholder] {
