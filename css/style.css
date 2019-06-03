@@ -1,9 +1,60 @@
+.header,
+.subheader,
+.third_header {
+  text-align: center;
+}
 
+.header {
+  text-transform: uppercase;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(45, 57, 69);
+}
 
+.third_header {
+  color: lightgrey;
+}
 
+hr {
+width: 90%;
+}
 
+.first_line {
+  border-top: 4px solid black;
+}
 
+form {
+  padding: 10px 20px;
+  max-width: 300px;
+}
 
+fieldset {
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="telephone"] {
+  padding: 15px;
+  margin-bottom: 30px;
+  border: none;
+  background: #EFF0F2;
+}
+
+input[placeholder] {
+  text-align: right;
+}
+
+input:focus textarea:focus {
+  background-color: #D5D9DC;
+}
+
+button {
+  background-color: #52BBB0;
+  text-align: center;
+}
 
 
 
@@ -13,5 +64,5 @@
 /* ----- Media Query ----- */
 
 @media (min-width: 768px) {
-  
+
 }
