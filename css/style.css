@@ -44,7 +44,7 @@ width: 90%;
 }
 
 form {
-  padding: 5px 30px 30px 0px;
+  padding: 5px 30px 5px 0px;
   max-width: 300px;
   margin: 10px 7px 5px 5px;
 }
@@ -101,11 +101,17 @@ textarea:focus {
 
 button {
   background-color: #52BBB0;
+  color: white;
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 60px;
+  width: 115%;
 }
 
 .copyright {
   text-align: center;
+  font-style: italic;
   font-size: 15px;
   color: #001a00;
 }
