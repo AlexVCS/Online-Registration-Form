@@ -108,7 +108,6 @@ button {
   color: white;
   text-align: center;
   font-size: 25px;
-  font-weight: bold;
   line-height: 60px;
   width: 115%;
 }
@@ -117,7 +116,7 @@ button {
   text-align: center;
   font-style: italic;
   font-size: 15px;
-  color: #001a00;
+  color: #b8b8b8;
 }
 
 
