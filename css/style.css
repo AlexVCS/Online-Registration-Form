@@ -45,7 +45,7 @@ width: 85%;
 form {
   padding: 5px 30px 5px 0px;
   max-width: 300px;
-  margin: 10px 7px 5px 5px;
+  margin: auto;
 }
 
 fieldset {
@@ -66,6 +66,14 @@ select {
   border: none;
   background: #EFF0F2;
   width: 100%;
+}
+
+#state {
+  width: 113%;
+}
+
+#zip {
+  width: 65%;
 }
 
 input[placeholder] {
@@ -125,7 +133,27 @@ button {
 /* ----- Media Query ----- */
 
 @media (min-width: 768px) {
+
+  .subheader {
+    padding-top: 30px;
+  }
+
+  .third_header {
+    padding-bottom: 15px;
+    height: 10px;
+    line-height: 0px;
+  }
+
   form {
     max-width: 700px;
+    margin: auto;
+  }
+
+  form label {
+    text-align: left;
+  }
+
+  button {
+    width: 100%;
   }
 }
