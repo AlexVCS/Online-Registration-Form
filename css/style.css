@@ -122,8 +122,11 @@ textarea:focus {
 }
 
   .sign_up {
-    padding-top: 30px;
     background-color: lightblue;
+  }
+
+  legend.news {
+    padding-top: 30px;
   }
 
 .topics {
