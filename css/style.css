@@ -30,7 +30,7 @@ h1 {
 }
 
 hr {
-width: 85%;
+width: 87%;
 }
 
 .first_line {
@@ -40,6 +40,13 @@ width: 85%;
 .second_line {
   border-top: 2px solid black;
   width: 98%;
+}
+
+.contact {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 17px;
 }
 
 form {
@@ -58,7 +65,7 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="telephone"],
+input[type="tel"],
 textarea,
 select {
   padding: 15px;
@@ -104,6 +111,8 @@ input:focus {
 
 .news {
   text-align: left;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .topics {
