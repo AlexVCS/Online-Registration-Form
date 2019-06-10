@@ -124,6 +124,18 @@ input:focus {
 textarea:focus {
   transition: all 1s ease;
   background-color: pink;
+  -webkit-animation: fadeinout 1s linear forwards;
+    animation: fadeinout 3s linear forwards;
+    opacity: 1;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
 }
 
 .sign_up {
