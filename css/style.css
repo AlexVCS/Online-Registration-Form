@@ -167,18 +167,23 @@ button {
   input[type="tel"],
   textarea,
   select {
-    width: 45%;
+    width: 60%;
     display: inline-block;
   }
 
   #state {
-    width: 45%;
+    width: 60%;
     display: inline-block;
   }
 
   #zip {
     width: 30%;
     display: inline-block;
+  }
+
+  label {
+    display: inline-block;
+    width: 30%;
   }
 
   textarea {
