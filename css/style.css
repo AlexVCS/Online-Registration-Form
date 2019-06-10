@@ -51,7 +51,6 @@ width: 87%;
 
 form {
   padding: 5px 30px 5px 0px;
-  max-width: 300px;
   margin: auto;
 }
 
@@ -120,10 +119,10 @@ textarea:focus {
   text-align: left;
   font-size: 23px;
   font-weight: bold;
-  background-color: lightblue;
 }
 
   .sign_up {
+    padding-top: 30px;
     background-color: lightblue;
   }
 
