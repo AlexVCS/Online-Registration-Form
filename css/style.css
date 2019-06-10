@@ -108,45 +108,24 @@ select {
 input:focus {
   transition: all 1s ease;
   background-color: pink;
-  -webkit-animation: fadeinout 1s linear forwards;
-    animation: fadeinout 3s linear forwards;
-    opacity: 1;
-}
-
-@-webkit-keyframes fadeinout {
-  50% { opacity: 1; }
-}
-
-@keyframes fadeinout {
-  50% { opacity: 1; }
 }
 
 textarea:focus {
   transition: all 1s ease;
   background-color: pink;
-  -webkit-animation: fadeinout 1s linear forwards;
-    animation: fadeinout 3s linear forwards;
-    opacity: 1;
 }
 
-@-webkit-keyframes fadeinout {
-  50% { opacity: 1; }
-}
-
-@keyframes fadeinout {
-  50% { opacity: 1; }
-}
-}
-
-.sign_up {
-  background-color: lightblue;
-}
 
 .news {
   text-align: left;
   font-size: 23px;
   font-weight: bold;
+  background-color: lightblue;
 }
+
+  .sign_up {
+    background-color: lightblue;
+  }
 
 .topics {
   padding-top: 5px;
