@@ -144,13 +144,22 @@ button {
     line-height: 0px;
   }
 
-  form {
-    max-width: 700px;
-    margin: auto;
+  .wrapper {
+    display: inline-block;
+    width: 100%;
   }
 
-  form label {
-    text-align: left;
+  form {
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="telephone"],
+  textarea,
+  select {
+    max-width: 90%;
+
   }
 
   button {
