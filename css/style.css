@@ -72,7 +72,7 @@ select {
   margin: 15px 0 30px;
   border: none;
   background: #EFF0F2;
-  width: 100%;
+  width: 95%;
 }
 
 #state {
@@ -106,7 +106,28 @@ select {
 }
 
 input:focus {
-  background-color: lightgreen;
+  transition: all 1s ease;
+  background-color: pink;
+  -webkit-animation: fadeinout 1s linear forwards;
+    animation: fadeinout 3s linear forwards;
+    opacity: 1;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+textarea:focus {
+  transition: all 1s ease;
+  background-color: pink;
+}
+
+.sign_up {
+  background-color: lightblue;
 }
 
 .news {
@@ -184,6 +205,10 @@ button {
   label {
     display: inline-block;
     width: 30%;
+  }
+
+  .topics {
+    display: inline;
   }
 
   textarea {
