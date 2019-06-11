@@ -82,7 +82,7 @@ select {
   width: 65%;
 }
 
-input[placeholder] {
+input::placeholder {
   text-align: right;
 }
 
